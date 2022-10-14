@@ -1,0 +1,28 @@
+{
+  "name": "livescore-for-the-gambia-football-league",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon  src/" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariamajankeh/Livescore-For-The-Gambia-Football-League.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariamajankeh/Livescore-For-The-Gambia-Football-League/issues"
+  },
+  "homepage": "https://github.com/mariamajankeh/Livescore-For-The-Gambia-Football-League#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
