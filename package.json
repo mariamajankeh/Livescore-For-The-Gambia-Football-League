@@ -1,7 +1,7 @@
 {
   "name": "livescore-for-the-gambia-football-league",
   "version": "1.0.0",
-  "description": "",
+  "description": "this app is for showing livescore of football games in the Gambia football league, giving real-time updates and currents new",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
