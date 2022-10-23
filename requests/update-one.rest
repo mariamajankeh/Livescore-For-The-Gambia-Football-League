@@ -1,5 +1,7 @@
-PUT http://localhost:3001/api/user
+PUT http://localhost:3001/api/user/63555bde3a10957955a37238
 content-type: application/json
+
+
 {
   "email": "ac@camariana.gm",
   "firstname": "A",
