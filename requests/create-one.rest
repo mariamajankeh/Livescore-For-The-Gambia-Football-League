@@ -2,8 +2,28 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json
 
 {
-  "email": "ac@camariana.gm",
+
+  "email": "bc@jankz.gm",
   "password": "secret",
   "minit": "",
-  "lastname": "Camariana"
+  "lastname": "seckan"
 }
+
+###
+POST   http://localhost:3001/api/division HTTP/1.1
+content-type: application/json
+
+{
+  "name": "hackz",
+  "number": "1",
+  "userId": "637983d66626c57162488a3f"
+  
+},
+
+# {
+#   "name": "REALDE BANJUL",
+#   "number": "2",
+#   "userId": "637983d66626c57162488a3f"
+  
+
+# }

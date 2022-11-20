@@ -1,1 +1,15 @@
-GET http://localhost:3001/api/user
+# GET http://localhost:3001/api/user HTTP/1.1
+# Content-Type: application/json
+
+
+### division
+GET  http://localhost:3001/api/division/6379854a8551a2683fe79eae
+content-type: application/json
+
+{
+    "userId": "637983d66626c57162488a3f"
+   
+}
+
+
+

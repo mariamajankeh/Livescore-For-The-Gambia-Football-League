@@ -31,7 +31,15 @@ const mongoose = require('mongoose')
     type: String,
     enum: ['Admin', 'User'], 
     default: 'User'
-  }
+  },
+  divisions: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'division'
+    }
+  ]
+
+
   },
   { timestamps: true }
  )
