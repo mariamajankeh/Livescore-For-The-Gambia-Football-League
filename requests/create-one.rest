@@ -3,27 +3,24 @@ content-type: application/json
 
 {
 
-  "email": "bc@jankz.gm",
-  "password": "secret",
-  "minit": "",
-  "lastname": "seckan"
+  "name": "amie",
+  "lastname": "bah",
+  "email": "jj@gmail.com",
+  "password": "1294"
+  
+  
+  
 }
 
+ 
 ###
 POST   http://localhost:3001/api/division HTTP/1.1
 content-type: application/json
 
 {
-  "name": "hackz",
-  "number": "1",
-  "userId": "637983d66626c57162488a3f"
+  "name": "BRIKAMA FC",
+  "number": "FirstDivision",
+  "userId": "63948843c636fa30ad00af59"
   
-},
+}
 
-# {
-#   "name": "REALDE BANJUL",
-#   "number": "2",
-#   "userId": "637983d66626c57162488a3f"
-  
-
-# }

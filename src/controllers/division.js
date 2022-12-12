@@ -7,9 +7,12 @@ const createDivision = async (req, res) => {
 const content = req.body;
 const user = await User.findById(content.userId);
 
+console.log('the user', user);
+
 try {
 const division = await Division.create({ user: content.userId, ...content
 })
+console.log('checking what is here', division);
 
 user.divisions = user.divisions.concat(division._id)
 await user.save();
